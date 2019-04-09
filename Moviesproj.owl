@@ -1,0 +1,779 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/valla/ontologies/2019/1/movies"
+     xml:base="http://www.semanticweb.org/valla/ontologies/2019/1/movies"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:www="http://www.moviedatabase.org#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.moviedatabase.org#"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.moviedatabase.org#belongsToGenre -->
+
+    <owl:ObjectProperty rdf:about="http://www.moviedatabase.org#belongsToGenre">
+        <rdfs:domain rdf:resource="http://www.moviedatabase.org#Movie"/>
+        <rdfs:range rdf:resource="http://www.moviedatabase.org#Genre"/>
+        <rdfs:comment>This Property is used to know for which genre does the movie belongs to.</rdfs:comment>
+        <rdfs:label>belongsToGenre</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.moviedatabase.org#hasComposer -->
+
+    <owl:ObjectProperty rdf:about="http://www.moviedatabase.org#hasComposer">
+        <rdfs:domain rdf:resource="http://www.moviedatabase.org#Movie"/>
+        <rdfs:range rdf:resource="http://www.moviedatabase.org#Music_Director"/>
+        <rdfs:comment>This Property is to know the Music composer of the movie</rdfs:comment>
+        <rdfs:label>hasComposer</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.moviedatabase.org#hasSubtitles -->
+
+    <owl:ObjectProperty rdf:about="http://www.moviedatabase.org#hasSubtitles">
+        <rdfs:domain rdf:resource="http://www.moviedatabase.org#Movie"/>
+        <rdfs:range rdf:resource="http://www.moviedatabase.org#Language"/>
+        <rdfs:comment>This property is to know whether the movie has subtitles</rdfs:comment>
+        <rdfs:label>hasSubtitles</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.moviedatabase.org#hascast -->
+
+    <owl:ObjectProperty rdf:about="http://www.moviedatabase.org#hascast">
+        <rdfs:domain rdf:resource="http://www.moviedatabase.org#Movie"/>
+        <rdfs:range rdf:resource="http://www.moviedatabase.org#Actor"/>
+        <rdfs:range rdf:resource="http://www.moviedatabase.org#Director"/>
+        <rdfs:range rdf:resource="http://www.moviedatabase.org#Editor"/>
+        <rdfs:range rdf:resource="http://www.moviedatabase.org#Music_Director"/>
+        <rdfs:range rdf:resource="http://www.moviedatabase.org#Producer"/>
+        <rdfs:range rdf:resource="http://www.moviedatabase.org#Writer"/>
+        <rdfs:comment>The cast of the film</rdfs:comment>
+        <rdfs:comment>cast</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.moviedatabase.org#hasmovie -->
+
+    <owl:ObjectProperty rdf:about="http://www.moviedatabase.org#hasmovie">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>Movie name</rdfs:label>
+        <rdfs:label>hasmovie</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.moviedatabase.org#isAwardedWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.moviedatabase.org#isAwardedWith">
+        <rdfs:domain rdf:resource="http://www.moviedatabase.org#Movie"/>
+        <rdfs:range rdf:resource="http://www.moviedatabase.org#Award"/>
+        <rdfs:label>isAwardedWith</rdfs:label>
+        <rdfs:label>isAwardedwith</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.moviedatabase.org#isCertifiedWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.moviedatabase.org#isCertifiedWith">
+        <rdfs:domain rdf:resource="http://www.moviedatabase.org#Movie"/>
+        <rdfs:range rdf:resource="http://www.moviedatabase.org#certification"/>
+        <rdfs:comment>This property is to know the certification of the movie</rdfs:comment>
+        <rdfs:comment>isCertifiedWith</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.moviedatabase.org#isDirectorOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.moviedatabase.org#isDirectorOf">
+        <rdfs:domain rdf:resource="http://www.moviedatabase.org#Movie"/>
+        <rdfs:range rdf:resource="http://www.moviedatabase.org#Director"/>
+        <rdfs:comment>This property is used to know Director of particular movie</rdfs:comment>
+        <rdfs:label>isDirector</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.moviedatabase.org#isProducedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.moviedatabase.org#isProducedBy">
+        <rdfs:domain rdf:resource="http://www.moviedatabase.org#Movie"/>
+        <rdfs:range rdf:resource="http://www.moviedatabase.org#Producer"/>
+        <rdfs:range rdf:resource="http://www.moviedatabase.org#Production"/>
+        <rdfs:comment>This property is to know the producer of the movie</rdfs:comment>
+        <rdfs:label>isProducedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.moviedatabase.org#isProducerOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.moviedatabase.org#isProducerOf">
+        <rdfs:domain rdf:resource="http://www.moviedatabase.org#Movie"/>
+        <rdfs:range rdf:resource="http://www.moviedatabase.org#Producer"/>
+        <rdfs:range rdf:resource="http://www.moviedatabase.org#Production"/>
+        <rdfs:label>This property is used to know producer of a particular movie</rdfs:label>
+        <rdfs:label>isProducerOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.moviedatabase.org#isTranslatedTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.moviedatabase.org#isTranslatedTo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.moviedatabase.org#Movie"/>
+        <rdfs:range rdf:resource="http://www.moviedatabase.org#Language"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.moviedatabase.org#Budget -->
+
+    <owl:DatatypeProperty rdf:about="http://www.moviedatabase.org#Budget">
+        <rdfs:domain rdf:resource="http://www.moviedatabase.org#Movie"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:comment>Total budget of the film</rdfs:comment>
+        <rdfs:label>Budget</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.moviedatabase.org#Language -->
+
+    <owl:DatatypeProperty rdf:about="http://www.moviedatabase.org#Language">
+        <rdfs:domain rdf:resource="http://www.moviedatabase.org#Presentation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.moviedatabase.org#Person_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.moviedatabase.org#Person_name">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.moviedatabase.org#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>name of the person</rdfs:comment>
+        <rdfs:label>person_name</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.moviedatabase.org#Production_Company -->
+
+    <owl:DatatypeProperty rdf:about="http://www.moviedatabase.org#Production_Company"/>
+    
+
+
+    <!-- http://www.moviedatabase.org#ReleaseDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.moviedatabase.org#ReleaseDate">
+        <rdfs:domain rdf:resource="http://www.moviedatabase.org#Movie"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:comment>It describes the release date of the movie</rdfs:comment>
+        <rdfs:label>Release date</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.moviedatabase.org#Release_date -->
+
+    <owl:DatatypeProperty rdf:about="http://www.moviedatabase.org#Release_date">
+        <rdfs:comment>it shows Release date of the respective movie</rdfs:comment>
+        <rdfs:label>Release_date</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.moviedatabase.org#Revenue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.moviedatabase.org#Revenue">
+        <rdfs:label>It shows the total revenue earned by the movie</rdfs:label>
+        <rdfs:label>Revenue</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.moviedatabase.org#RunTime -->
+
+    <owl:DatatypeProperty rdf:about="http://www.moviedatabase.org#RunTime">
+        <rdfs:domain rdf:resource="http://www.moviedatabase.org#Movie"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:comment>It describes the total runtime of a movie</rdfs:comment>
+        <rdfs:label>Runtime</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.moviedatabase.org#Title -->
+
+    <owl:DatatypeProperty rdf:about="http://www.moviedatabase.org#Title">
+        <rdfs:domain rdf:resource="http://www.moviedatabase.org#Movie"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Title of the movie</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.moviedatabase.org#genre -->
+
+    <owl:DatatypeProperty rdf:about="http://www.moviedatabase.org#genre">
+        <rdfs:domain rdf:resource="http://www.moviedatabase.org#Movie"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>It shows the respective genre of the film</rdfs:comment>
+        <rdfs:comment>genre</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.moviedatabase.org#genre_id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.moviedatabase.org#genre_id">
+        <rdfs:domain rdf:resource="http://www.moviedatabase.org#Genre"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>unique identifier for genre</rdfs:comment>
+        <rdfs:label>genre_id</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.moviedatabase.org#imdb_id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.moviedatabase.org#imdb_id">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.moviedatabase.org#Movie"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:comment>It is the unique identifier</rdfs:comment>
+        <rdfs:comment>imdb_id</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.moviedatabase.org#imdb_rating -->
+
+    <owl:DatatypeProperty rdf:about="http://www.moviedatabase.org#imdb_rating">
+        <rdfs:domain rdf:resource="http://www.moviedatabase.org#Movie"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:comment>It shows the rating of the particular film</rdfs:comment>
+        <rdfs:comment>imdb_rating</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.moviedatabase.org#person_gender -->
+
+    <owl:DatatypeProperty rdf:about="http://www.moviedatabase.org#person_gender">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.moviedatabase.org#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Gender of the person</rdfs:comment>
+        <rdfs:label>person_gender</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.moviedatabase.org#person_id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.moviedatabase.org#person_id">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.moviedatabase.org#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:comment>Id of the person</rdfs:comment>
+        <rdfs:label>person_id</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.moviedatabase.org#Actor -->
+
+    <owl:Class rdf:about="http://www.moviedatabase.org#Actor">
+        <rdfs:subClassOf rdf:resource="http://www.moviedatabase.org#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.moviedatabase.org#Award -->
+
+    <owl:Class rdf:about="http://www.moviedatabase.org#Award">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">different awards</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">award</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.moviedatabase.org#Colorinfo -->
+
+    <owl:Class rdf:about="http://www.moviedatabase.org#Colorinfo">
+        <rdfs:subClassOf rdf:resource="http://www.moviedatabase.org#Presentation"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">It shows the color type of the movie</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Coloinfo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.moviedatabase.org#Country -->
+
+    <owl:Class rdf:about="http://www.moviedatabase.org#Country"/>
+    
+
+
+    <!-- http://www.moviedatabase.org#Director -->
+
+    <owl:Class rdf:about="http://www.moviedatabase.org#Director">
+        <rdfs:subClassOf rdf:resource="http://www.moviedatabase.org#Person"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">directd the movie</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">director</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.moviedatabase.org#Distributor -->
+
+    <owl:Class rdf:about="http://www.moviedatabase.org#Distributor">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Online Movie Streaming Services</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">OnlineRetailer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.moviedatabase.org#Editor -->
+
+    <owl:Class rdf:about="http://www.moviedatabase.org#Editor">
+        <rdfs:subClassOf rdf:resource="http://www.moviedatabase.org#Person"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">edits the movie runtime</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">editor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.moviedatabase.org#Genre -->
+
+    <owl:Class rdf:about="http://www.moviedatabase.org#Genre">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">It represents various Genres of movies</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Genres</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.moviedatabase.org#Language -->
+
+    <owl:Class rdf:about="http://www.moviedatabase.org#Language">
+        <rdfs:subClassOf rdf:resource="http://www.moviedatabase.org#Presentation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.moviedatabase.org#Movie -->
+
+    <owl:Class rdf:about="http://www.moviedatabase.org#Movie"/>
+    
+
+
+    <!-- http://www.moviedatabase.org#Music_Director -->
+
+    <owl:Class rdf:about="http://www.moviedatabase.org#Music_Director">
+        <rdfs:subClassOf rdf:resource="http://www.moviedatabase.org#Person"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">creates the tunes for movie</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Music Director</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.moviedatabase.org#Person -->
+
+    <owl:Class rdf:about="http://www.moviedatabase.org#Person">
+        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Person</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.moviedatabase.org#Presentation -->
+
+    <owl:Class rdf:about="http://www.moviedatabase.org#Presentation">
+        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Presentation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.moviedatabase.org#Producer -->
+
+    <owl:Class rdf:about="http://www.moviedatabase.org#Producer">
+        <rdfs:subClassOf rdf:resource="http://www.moviedatabase.org#Person"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">produces the movie</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">producer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.moviedatabase.org#Production -->
+
+    <owl:Class rdf:about="http://www.moviedatabase.org#Production">
+        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Company</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">It has various Production Companies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.moviedatabase.org#Writer -->
+
+    <owl:Class rdf:about="http://www.moviedatabase.org#Writer">
+        <rdfs:subClassOf rdf:resource="http://www.moviedatabase.org#Person"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">responsible for the concept of the film</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">writer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.moviedatabase.org#certification -->
+
+    <owl:Class rdf:about="http://www.moviedatabase.org#certification">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">It has various certifications given to the movies</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Certification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.moviedatabase.org#Actor_Humphrey_Bogart -->
+
+    <owl:NamedIndividual rdf:about="http://www.moviedatabase.org#Actor_Humphrey_Bogart">
+        <www:hasmovie rdf:resource="http://www.moviedatabase.org#Sabrina"/>
+        <www:Person_name>Humphrey_Bogart</www:Person_name>
+        <www:person_gender>male</www:person_gender>
+        <rdfs:comment>Actor of film</rdfs:comment>
+        <rdfs:label>Actor_Humphrey_Bogart</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.moviedatabase.org#Actor_Jack_Lemmon -->
+
+    <owl:NamedIndividual rdf:about="http://www.moviedatabase.org#Actor_Jack_Lemmon">
+        <www:hasmovie rdf:resource="http://www.moviedatabase.org#Balto"/>
+        <www:Person_name>Jack_Lemmon</www:Person_name>
+        <www:person_gender>male</www:person_gender>
+        <www:person_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17798890</www:person_id>
+        <rdfs:label>Actor_Jack_Lemmon</rdfs:label>
+        <owl:backwardCompatibleWith>Actor of film</owl:backwardCompatibleWith>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.moviedatabase.org#Actor_Tim_Allen -->
+
+    <owl:NamedIndividual rdf:about="http://www.moviedatabase.org#Actor_Tim_Allen">
+        <www:hasmovie rdf:resource="http://www.moviedatabase.org#toy_story"/>
+        <www:Person_name>Tim_Allen</www:Person_name>
+        <www:person_gender>male</www:person_gender>
+        <www:person_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">78798908</www:person_id>
+        <rdfs:comment>Actor of the film</rdfs:comment>
+        <rdfs:label>Actor_Tim_Allen</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.moviedatabase.org#AmazonPrime -->
+
+    <owl:NamedIndividual rdf:about="http://www.moviedatabase.org#AmazonPrime">
+        <rdf:type rdf:resource="http://www.moviedatabase.org#Distributor"/>
+        <www:hasmovie rdf:resource="http://www.moviedatabase.org#Casino"/>
+        <www:Budget>250K</www:Budget>
+        <rdfs:label>AmazonPrime</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.moviedatabase.org#Anime -->
+
+    <owl:NamedIndividual rdf:about="http://www.moviedatabase.org#Anime">
+        <rdf:type rdf:resource="http://www.moviedatabase.org#Genre"/>
+        <www:hasmovie rdf:resource="http://www.moviedatabase.org#toy_story"/>
+        <www:Language>english</www:Language>
+        <www:imdb_id>tt0114709</www:imdb_id>
+        <rdfs:comment>Anime</rdfs:comment>
+        <rdfs:comment>Genre of the film</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.moviedatabase.org#Balto -->
+
+    <owl:NamedIndividual rdf:about="http://www.moviedatabase.org#Balto">
+        <www:isDirectorOf rdf:resource="http://www.moviedatabase.org#Balto"/>
+        <www:Language>english</www:Language>
+        <www:genre>Anime</www:genre>
+        <rdfs:comment>Its the name of the movie</rdfs:comment>
+        <rdfs:label>Balto</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.moviedatabase.org#Casino -->
+
+    <owl:NamedIndividual rdf:about="http://www.moviedatabase.org#Casino">
+        <www:isAwardedWith rdf:resource="http://www.moviedatabase.org#Oscar"/>
+        <www:genre>Fantasy</www:genre>
+        <rdfs:comment>Name of the movie</rdfs:comment>
+        <rdfs:label>casino</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.moviedatabase.org#Comedy -->
+
+    <owl:NamedIndividual rdf:about="http://www.moviedatabase.org#Comedy">
+        <rdf:type rdf:resource="http://www.moviedatabase.org#Genre"/>
+        <www:hasmovie rdf:resource="http://www.moviedatabase.org#Balto"/>
+        <www:imdb_id>6t76uy</www:imdb_id>
+        <rdfs:label>Comedy</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.moviedatabase.org#Diector_John_Lasseter -->
+
+    <owl:NamedIndividual rdf:about="http://www.moviedatabase.org#Diector_John_Lasseter">
+        <www:hasmovie rdf:resource="http://www.moviedatabase.org#toy_story"/>
+        <www:Person_name>John_Lassester</www:Person_name>
+        <www:imdb_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">66778</www:imdb_id>
+        <www:person_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6889</www:person_id>
+        <rdfs:label>Diector_John_Lasseter</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.moviedatabase.org#Director_Billy__Wilder -->
+
+    <owl:NamedIndividual rdf:about="http://www.moviedatabase.org#Director_Billy__Wilder">
+        <www:hasmovie rdf:resource="http://www.moviedatabase.org#Sabrina"/>
+        <www:Person_name>Billy Wilder</www:Person_name>
+        <www:person_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">877987</www:person_id>
+        <rdfs:label>Director_Billy__Wilder</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.moviedatabase.org#Director_Howard_Deutch -->
+
+    <owl:NamedIndividual rdf:about="http://www.moviedatabase.org#Director_Howard_Deutch">
+        <www:hasmovie rdf:resource="http://www.moviedatabase.org#Grumpier"/>
+        <www:imdb_id>tte778789</www:imdb_id>
+        <rdfs:label>Director_Howard_Deutch</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.moviedatabase.org#Filfareawards -->
+
+    <owl:NamedIndividual rdf:about="http://www.moviedatabase.org#Filfareawards">
+        <www:isAwardedWith rdf:resource="http://www.moviedatabase.org#Grumpier"/>
+        <www:genre>Sci Fi</www:genre>
+        <rdfs:label>filmfare awards</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.moviedatabase.org#FoxStarStudios -->
+
+    <owl:NamedIndividual rdf:about="http://www.moviedatabase.org#FoxStarStudios">
+        <rdf:type rdf:resource="http://www.moviedatabase.org#Production"/>
+        <rdfs:label>FoxStarStudios</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.moviedatabase.org#Grumpier -->
+
+    <owl:NamedIndividual rdf:about="http://www.moviedatabase.org#Grumpier">
+        <www:isDirectorOf rdf:resource="http://www.moviedatabase.org#Director_Howard_Deutch"/>
+        <www:RunTime rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">101</www:RunTime>
+        <www:genre>Romance</www:genre>
+        <www:genre_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5655678</www:genre_id>
+        <rdfs:label>Grumpier</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.moviedatabase.org#Heat -->
+
+    <owl:NamedIndividual rdf:about="http://www.moviedatabase.org#Heat">
+        <www:belongsToGenre rdf:resource="http://www.moviedatabase.org#SciFi_and_Fantasy"/>
+        <www:Production_Company>Universal</www:Production_Company>
+        <www:imdb_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">111</www:imdb_id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.moviedatabase.org#Horror -->
+
+    <owl:NamedIndividual rdf:about="http://www.moviedatabase.org#Horror">
+        <rdf:type rdf:resource="http://www.moviedatabase.org#Genre"/>
+        <rdfs:label>Horror</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.moviedatabase.org#Hotstar -->
+
+    <owl:NamedIndividual rdf:about="http://www.moviedatabase.org#Hotstar">
+        <rdf:type rdf:resource="http://www.moviedatabase.org#Distributor"/>
+        <www:isProducedBy rdf:resource="http://www.moviedatabase.org#Hotstar"/>
+        <www:Language>en</www:Language>
+        <www:Revenue>100k</www:Revenue>
+        <rdfs:label>Hotstar</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.moviedatabase.org#JioEntertainment -->
+
+    <owl:NamedIndividual rdf:about="http://www.moviedatabase.org#JioEntertainment">
+        <rdf:type rdf:resource="http://www.moviedatabase.org#Production"/>
+        <rdfs:label>JioEntertainment</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.moviedatabase.org#Netflix -->
+
+    <owl:NamedIndividual rdf:about="http://www.moviedatabase.org#Netflix">
+        <rdf:type rdf:resource="http://www.moviedatabase.org#Distributor"/>
+        <rdfs:label>Netflix</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.moviedatabase.org#Oscar -->
+
+    <owl:NamedIndividual rdf:about="http://www.moviedatabase.org#Oscar">
+        <www:isAwardedWith rdf:resource="http://www.moviedatabase.org#Balto"/>
+        <www:genre>Anime</www:genre>
+        <rdfs:label>Oscar</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.moviedatabase.org#Sabrina -->
+
+    <owl:NamedIndividual rdf:about="http://www.moviedatabase.org#Sabrina">
+        <www:isProducedBy rdf:resource="http://www.moviedatabase.org#YashRajFilms"/>
+        <www:Language>Spanish</www:Language>
+        <www:Revenue>100k</www:Revenue>
+        <www:imdb_rating rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</www:imdb_rating>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.moviedatabase.org#SciFi_and_Fantasy -->
+
+    <owl:NamedIndividual rdf:about="http://www.moviedatabase.org#SciFi_and_Fantasy">
+        <rdf:type rdf:resource="http://www.moviedatabase.org#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.moviedatabase.org#Thriller -->
+
+    <owl:NamedIndividual rdf:about="http://www.moviedatabase.org#Thriller">
+        <rdf:type rdf:resource="http://www.moviedatabase.org#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.moviedatabase.org#YashRajFilms -->
+
+    <owl:NamedIndividual rdf:about="http://www.moviedatabase.org#YashRajFilms">
+        <rdf:type rdf:resource="http://www.moviedatabase.org#Production"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.moviedatabase.org#Zeecine -->
+
+    <owl:NamedIndividual rdf:about="http://www.moviedatabase.org#Zeecine"/>
+    
+
+
+    <!-- http://www.moviedatabase.org#toy_story -->
+
+    <owl:NamedIndividual rdf:about="http://www.moviedatabase.org#toy_story">
+        <www:belongsToGenre rdf:resource="http://www.moviedatabase.org#Horror"/>
+        <www:isProducedBy rdf:resource="http://www.moviedatabase.org#FoxStarStudios"/>
+        <www:RunTime>2 hrs 15 min</www:RunTime>
+        <www:imdb_rating rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</www:imdb_rating>
+        <rdfs:label>toystory</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.moviedatabase.org#Language">
+        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Language</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">It shows the language of the movie</rdfs:comment>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.7.2018-12-02T02:23:35Z) https://github.com/owlcs/owlapi -->
+

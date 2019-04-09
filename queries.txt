@@ -1,0 +1,16 @@
+prefix imdb:<http://www.moviedatabase.org#>
+select ?x ?y ?z
+where{
+?x ?y ?z .
+}
+
+################################################
+
+
+
+
+select (<http://www.moviedatabase.org#Actor> as ?s) ?p ?o ?g { 
+  { <http://www.moviedatabase.org#Actor> ?p ?o } 
+union 
+  { graph ?g { <http://www.moviedatabase.org#Actor> ?p ?o } } 
+}

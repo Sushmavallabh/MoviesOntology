@@ -1,0 +1,417 @@
+<http://sv.org/property/ 'name': 'Drama'}]">
+        <http://sv.org/property/Language>
+                "tt0112818" , "tt0113247" , "tt0113158" , "tt0113490" , "tt0114057" , "tt0112749" ;
+        <http://sv.org/property/budget>
+                "0" , "3000000" , "11000000" ;
+        <http://sv.org/property/genres>
+                "\"[{'id': 18" ;
+        <http://sv.org/property/imdb_rating>
+                " though" , " {'name': 'Distant Horizon'" , " African" , " 'id': 1382}" , " 'id': 97}]\"" , " a young woman about 19 and August King must decide to violate the law and help this slave to freedom or else leave her to be hunted down and" ;
+        <http://sv.org/property/original_title>
+                "en" , "fr" ;
+        <http://sv.org/property/overview>
+                "\"The Journey of August King is a multi-dimensional drama about a North Carolina farmer in 1815. August King" , " the Beloved Country\"" , "The evil Iago pretends to be friend of Othello in order to manipulate him to serve his own end in the film version of this Shakespeare classic." , "A justice drama based on a true story about a man on death row who in his last days forms a strong relationship with a nun who teaches him forgiveness and gives him spirituality as she accompanies him to his execution. Susan Sarandon won an Oscar for best female actress for her convincing portrayal of Sister Helen Prejean." , "\"Sadie looks up to her older sister Georgia" , "\"Aimlessly whiling away their days in the concrete environs of their dead-end suburbia" ;
+        <http://sv.org/property/production_companies>
+                "Dead Man Walking" , "The Journey of August King" , "Othello" , "\"Cry" , "Georgia" , "La Haine" ;
+        <http://sv.org/property/release_date>
+                "\"[{'name': 'Havoc'" , " a successful folk singer who's happily married with children" , " a widower" , " Vinz" , "\"[{'name': 'Columbia Pictures'" , "A South-African preacher goes to search for his wayward son who has committed a crime in the big city." ;
+        <http://sv.org/property/revenue>
+                " 'id': 5}" , " but can't break out of the bar-band circuit and hit the big time she desperately covets. It's in part due to her attraction to drugs and booze" , " 'id': 406}" , "\"[{'name': 'Miramax'" , " is on his way home as he does every year after selling his produce and purchasing the stock and goods he will need to survive the winter. On his journey" , " Hubert" ;
+        <http://sv.org/property/runtime>
+                " {'name': 'PolyGram Filmed Entertainment'" , " he comes upon a run-away slave" , " 'id': 53009}" , " and Said -- a Jew" , " and also to her own unwise choice in men. Finally" , " {'name': 'Castle Rock Entertainment'" .
+
+<http://sv.org/property/ 'name': 'Comedy'}]">
+        <http://sv.org/property/Language>
+                "tt0116126" , "tt0113403" , "tt0115683" , "tt0115697" , "tt0113041" , "tt0113118" ;
+        <http://sv.org/property/budget>
+                "15000000" , "0" , "3500000" ;
+        <http://sv.org/property/genres>
+                "\"[{'id': 35" ;
+        <http://sv.org/property/imdb_rating>
+                "\"[{'name': 'Metro-Goldwyn-Mayer (MGM)'" , " the campaign assigns sarcastic Steve" , " 'id': 12}]\"" , " 'id': 14}" , " but that's a plan that -- like George -- will have to change with the arrival of both a grandchild and a kid of his own.\"" , "\"[{'name': 'Castle Rock Entertainment'" ;
+        <http://sv.org/property/original_title>
+                "en" ;
+        <http://sv.org/property/overview>
+                "\"Out of work actor Joe volunteers to help try and save his sister's local church for the community by putting on a Christmas production of Hamlet" , "\"Craig and Smokey are two guys in Los Angeles hanging out on their porch on a Friday afternoon" , "\"When dignified Albert Donnelly runs for Governor" , "\"Bud and Doyle are two losers who are doing nothing with their lives. Both of their girlfriends are actively involved in saving the environment" , "\"Just when George Banks has recovered from his daughter's wedding" , "\"When Ashtray (Shawn Wayans) moves to South Central L.A. to live with his father (who appears to be the same age he is) and grandmother (who likes to talk tough and smoke reefer)" ;
+        <http://sv.org/property/production_companies>
+                "Don't Be a Menace to South Central While Drinking Your Juice in the Hood" , "Friday" , "Black Sheep" , "Bio-Dome" , "Father of the Bride Part II" , "A Midwinter's Tale" ;
+        <http://sv.org/property/release_date>
+                " he falls in with his gang-banging cousin Loc Dog (Marlon Wayans)" , " somewhat against the advice of his agent Margaretta. As the cast he assembles are still available even at Christmas and are prepared to do it on a 'profit sharing' basis (that is" , " but the two friends couldn't care less about saving the Earth. One day" , " he receives the news that she's pregnant ... and that George's wife" , " his team moves to keep his slow-witted and klutzy younger brother" , " smoking and drinking" ;
+        <http://sv.org/property/revenue>
+                " Mike" , " looking for something to do.\"" , " Nina" , " when a group of scientists begin a mission to live inside a \"\"Bio-Dome\"\" for a year without outside contact" , " who along with the requisite pistols and Uzi carries a thermo-nuclear warhead for self-defense. Will Ashtray be able to keep living the straight life?\"" , " they may not get paid anything) he cannot expect - and does not get - the cream of the cream. But although they all bring their own problems and foibles along" ;
+        <http://sv.org/property/runtime>
+                "\"[{'name': 'New Line Cinema'" , " is expecting too. He was planning on selling their home" , " Bud and Doyle mistakenly become part of the project themselves.\"" , " out of the eye of the media. To baby-sit Mike" , " something bigger starts to emerge in the perhaps aptly named village of Hope.\"" , "\"[{'name': 'Miramax Films'" .
+
+<http://sv.org/property/ 'name': 'Fantasy'}>
+        <http://sv.org/property/Language>
+                " {'id': 878" , " {'id': 18" ;
+        <http://sv.org/property/budget>
+                "18000000" , "20000000" , "30000000" ;
+        <http://sv.org/property/genres>
+                "\"[{'id': 14" ;
+        <http://sv.org/property/imdb_rating>
+                "\"A scientist in a surrealist society kidnaps children to steal their dreams" , "en" ;
+        <http://sv.org/property/original_title>
+                " 'name': 'Science Fiction'}" , " 'name': 'Drama'}" ;
+        <http://sv.org/property/overview>
+                " 'name': 'Comedy'}" , " 'name': 'Adventure'}]\"" ;
+        <http://sv.org/property/production_companies>
+                " {'id': 35" , " {'id': 12" ;
+        <http://sv.org/property/release_date>
+                "tt0112682" , " {'id': 10751" , " {'id': 53" ;
+        <http://sv.org/property/revenue>
+                " 'name': 'Thriller'}]\"" , "fr" , " 'name': 'Family'}]\"" ;
+        <http://sv.org/property/runtime>
+                "tt0114681" , "tt0112431" , "La Cité des Enfants Perdus" .
+
+<http://sv.org/property/ 'name': 'Music'}>
+        <http://sv.org/property/Language>
+                " {'id': 18" ;
+        <http://sv.org/property/budget>
+                "0" ;
+        <http://sv.org/property/genres>
+                "\"[{'id': 10402" ;
+        <http://sv.org/property/imdb_rating>
+                "\"In 1965" ;
+        <http://sv.org/property/original_title>
+                " 'name': 'Drama'}" ;
+        <http://sv.org/property/overview>
+                " 'name': 'Family'}]\"" ;
+        <http://sv.org/property/production_companies>
+                " {'id': 10751" ;
+        <http://sv.org/property/release_date>
+                "tt0113862" ;
+        <http://sv.org/property/revenue>
+                "en" ;
+        <http://sv.org/property/runtime>
+                "Mr. Holland's Opus" .
+
+<http://sv.org/property/ 'name': 'Romance'}>
+        <http://sv.org/property/Language>
+                " {'id': 12" , " {'id': 35" , " {'id': 18" ;
+        <http://sv.org/property/budget>
+                "0" ;
+        <http://sv.org/property/genres>
+                "\"[{'id': 10749" ;
+        <http://sv.org/property/imdb_rating>
+                " alarming the locals who worry she'll scare the fish away. But she's less interested in seafood than she is in cooking up a hot time with Max.\"" , " we see the life of the community in all its joys and sorrows" , "\"[{'name': 'Iwerks Entertainment'" ;
+        <http://sv.org/property/original_title>
+                " 'name': 'Drama'}]\"" , " 'name': 'Adventure'}]\"" , " 'name': 'Comedy'}]\"" ;
+        <http://sv.org/property/overview>
+                "en" , "fr" ;
+        <http://sv.org/property/production_companies>
+                "tt0114952" , "tt0113228" , "tt0114039" ;
+        <http://sv.org/property/release_date>
+                "Grumpier Old Men" , "Once Upon a Time... When We Were Colored" , "\"Guillaumet" ;
+        <http://sv.org/property/revenue>
+                "\"A family wedding reignites the ancient feud between next-door neighbors and fishing buddies John and Max. Meanwhile" , "\"This film relates the story of a tightly connected Afro-American community informally called Colored Town where the inhabitants live and depend on each other in a world where racist oppression is everywhere" , " les ailes du courage\"" ;
+        <http://sv.org/property/runtime>
+                "" , " as told by a boy called Cliff who spent his childhood there. Despite this" , " a sultry Italian divorcée opens a restaurant at the local bait shop" .
+
+<http://sv.org/property/ 'name': 'Science Fiction'}>
+        <http://sv.org/property/Language>
+                " {'id': 53" ;
+        <http://sv.org/property/budget>
+                "29500000" ;
+        <http://sv.org/property/genres>
+                "\"[{'id': 878" ;
+        <http://sv.org/property/imdb_rating>
+                "\"In the year 2035" ;
+        <http://sv.org/property/original_title>
+                " 'name': 'Thriller'}" ;
+        <http://sv.org/property/overview>
+                " 'name': 'Mystery'}]\"" ;
+        <http://sv.org/property/production_companies>
+                " {'id': 9648" ;
+        <http://sv.org/property/release_date>
+                "tt0114746" ;
+        <http://sv.org/property/revenue>
+                "en" ;
+        <http://sv.org/property/runtime>
+                "Twelve Monkeys" .
+
+<http://sv.org/property/tt0113612>
+        <http://sv.org/property/Language>
+                "en" ;
+        <http://sv.org/property/budget>
+                "0" ;
+        <http://sv.org/property/genres>
+                "[]" ;
+        <http://sv.org/property/imdb_rating>
+                " comic as well as serious situations arise" ;
+        <http://sv.org/property/original_title>
+                "Last Summer in the Hamptons" ;
+        <http://sv.org/property/overview>
+                " Long Island" ;
+        <http://sv.org/property/production_companies>
+                "\"Filmed entirely on location in East Hampton" ;
+        <http://sv.org/property/release_date>
+                " \"\"Last Summer in the Hamptons\"\" concerns a large theatrical family spending the last weekend of their summer together at the decades-old family retreat which economic circumstances have forced them to put on the market. Victoria Foyt plays a young Hollywood actress whose visit wreaks havoc on the stellar group of family and friends - led by matriarch Viveca Lindfors and made up of an extraordinary mix of prominent New York actors" ;
+        <http://sv.org/property/revenue>
+                " directors" ;
+        <http://sv.org/property/runtime>
+                " and playwrights. In the course of a very unusual weekend" .
+
+<http://sv.org/property/ 'name': 'Animation'}>
+        <http://sv.org/property/Language>
+                " {'id': 35" ;
+        <http://sv.org/property/budget>
+                "30000000" ;
+        <http://sv.org/property/genres>
+                "\"[{'id': 16" ;
+        <http://sv.org/property/imdb_rating>
+                "\"Led by Woody" ;
+        <http://sv.org/property/original_title>
+                " 'name': 'Comedy'}" ;
+        <http://sv.org/property/overview>
+                " 'name': 'Family'}]\"" ;
+        <http://sv.org/property/production_companies>
+                " {'id': 10751" ;
+        <http://sv.org/property/release_date>
+                "tt0114709" ;
+        <http://sv.org/property/revenue>
+                "en" ;
+        <http://sv.org/property/runtime>
+                "Toy Story" .
+
+<http://sv.org/property/tt0113541>
+        <http://sv.org/property/Language>
+                "en" ;
+        <http://sv.org/property/budget>
+                "0" ;
+        <http://sv.org/property/genres>
+                "[]" ;
+        <http://sv.org/property/imdb_rating>
+                " 'id': 10260}]\"" ;
+        <http://sv.org/property/original_title>
+                "Kids of the Round Table" ;
+        <http://sv.org/property/overview>
+                " Alex finds King Arthur's sword Excalibur and must prove himself worthy of it.\"" ;
+        <http://sv.org/property/production_companies>
+                "\"Set in modern times" ;
+        <http://sv.org/property/release_date>
+                "\"[{'name': 'Telefilm Canada'" ;
+        <http://sv.org/property/revenue>
+                " 'id': 7320}" ;
+        <http://sv.org/property/runtime>
+                " {'name': 'Melenny Productions'" .
+
+<http://sv.org/property/ 'name': 'Adventure'}>
+        <http://sv.org/property/Language>
+                " {'id': 36" , " {'id': 16" , " {'id': 35" , " {'id': 10751" , " {'id': 28" , " {'id': 14" ;
+        <http://sv.org/property/budget>
+                "58000000" , "0" , "45000000" , "16000000" , "65000000" , "55000000" ;
+        <http://sv.org/property/genres>
+                "\"[{'id': 12" ;
+        <http://sv.org/property/imdb_rating>
+                "\"When siblings Judy and Peter discover an enchanted board game that opens the door to a magical world" , "A nine-year-old boy gets a plastic Indian and a cupboard for his birthday and finds himself involved in adventure when the Indian comes to life and befriends him." , "\"Hotel manager Robert Grant is forced by his boss to postpone his family vacation when a hotel critic checks in. Trouble is" , "James Bond must unmask the mysterious head of the Janus Syndicate and prevent the leader from utilizing the GoldenEye weapons system to inflict devastating revenge on Britain." , "en" ;
+        <http://sv.org/property/original_title>
+                " 'name': 'Fantasy'}" , " 'name': 'History'}" , " 'name': 'Animation'}" , " 'name': 'Action'}" , " 'name': 'Comedy'}" , " 'name': 'Family'}" ;
+        <http://sv.org/property/overview>
+                " 'name': 'Fantasy'}]\"" , " 'name': 'Thriller'}]\"" , " 'name': 'Drama'}" , " 'name': 'Family'}]\"" ;
+        <http://sv.org/property/production_companies>
+                " {'id': 18" , " {'id': 14" , " {'id': 10751" , " {'id': 53" ;
+        <http://sv.org/property/release_date>
+                "tt0113189" , " {'id': 10751" , "tt0116151" , "tt0113419" , "tt0113497" ;
+        <http://sv.org/property/revenue>
+                "en" , " 'name': 'Family'}]\"" ;
+        <http://sv.org/property/runtime>
+                "Dunston Checks In" , "The Indian in the Cupboard" , "tt0112286" , "Jumanji" , "tt0114148" , "GoldenEye" .
+
+<http://sv.org/property/ 'name': 'Crime'}>
+        <http://sv.org/property/Language>
+                " {'id': 35" , " {'id': 9648" , " {'id': 18" ;
+        <http://sv.org/property/budget>
+                "33000000" , "8169363" , "30000000" , "4000000" ;
+        <http://sv.org/property/genres>
+                "\"[{'id': 80" ;
+        <http://sv.org/property/imdb_rating>
+                " 'id': 14}" , "\"Gene Watson is a public accountant who arrives on a train at Union Station in Los Angeles" , "\"Summoned from an ashram in Tibet" , "\"Two homicide detectives are on a desperate hunt for a serial killer whose crimes are based on the \"\"seven deadly sins\"\" in this dark and haunting film that takes viewers from the tortured remains of one victim to the next. The seasoned Det. Sommerset researches each sin in an effort to get inside the killer's mind" ;
+        <http://sv.org/property/original_title>
+                " 'name': 'Comedy'}]\"" , " 'name': 'Comedy'}" , " 'name': 'Drama'}" , " 'name': 'Mystery'}" ;
+        <http://sv.org/property/overview>
+                " 'name': 'Adventure'}]\"" , "en" , " 'name': 'Thriller'}]\"" ;
+        <http://sv.org/property/production_companies>
+                " {'id': 53" , "tt0113101" , " {'id': 12" ;
+        <http://sv.org/property/release_date>
+                "tt0114369" , "Four Rooms" , "tt0112281" , "tt0113972" ;
+        <http://sv.org/property/revenue>
+                "en" , "It's Ted the Bellhop's first night on the job...and the hotel's very unusual guests are about to place him in some outrageous predicaments. It seems that this evening's room service is serving up one unbelievable happening after another." ;
+        <http://sv.org/property/runtime>
+                "\"[{'name': 'Miramax Films'" , "Ace Ventura: When Nature Calls" , "Se7en" , "Nick of Time" .
+
+<http://sv.org/property/ 'name': 'Comedy'}>
+        <http://sv.org/property/Language>
+                " {'id': 27" , " {'id': 53" , " {'id': 18" , " {'id': 10749" , " {'id': 10751" ;
+        <http://sv.org/property/budget>
+                "14000000" , "62000000" , "15000000" , "12000000" , "58000000" , "0" , "16000000" , "30250000" ;
+        <http://sv.org/property/genres>
+                "\"[{'id': 35" ;
+        <http://sv.org/property/imdb_rating>
+                "\"[{'name': 'Warner Bros.'" , "\"Chili Palmer is a Miami mobster who gets sent by his boss" , "Simple Italian postman learns to love poetry while delivering mail to a famous poet; he uses this to woo local beauty Beatrice." , "\"Cheated on" , "\"Shallow" , "\"After losing her job" , "\"Widowed U.S. president Andrew Shepherd" , " who may be the only one able to vanquish the count.\"" , "\"Identical 9-year-olds from very different backgrounds: orphaned Amanda and wealthy Alyssa meet at summer camp and decide to switch places -- and play matchmaker between Alyssa's dad" , "\"After college graduation" , " adopt a baby" , " and his 7-year-long girlfriend Roz want to put an end to their unsteady lifestyle and just do that last job" , "\"[{'name': 'Renn Productions'" , " but not before his business-focused brother has something to say about it.\"" , "\"Maximillian" , "\"Waxing nostalgic about the bittersweet passage from childhood to puberty in this tender coming-of-age tale" , "\"During a snowy winter in the small fictional town of Knight\"\"s Ridge" ;
+        <http://sv.org/property/original_title>
+                " 'name': 'Horror'}]\"" , " 'name': 'Romance'}]\"" , " 'name': 'Family'}]\"" , " 'name': 'Horror'}" , " 'name': 'Family'}" , " 'name': 'Drama'}" , " 'name': 'Thriller'}" ;
+        <http://sv.org/property/overview>
+                "en" , " 'name': 'Crime'}]\"" , " 'name': 'Romance'}]\"" , " 'name': 'Family'}]\"" , "fr" ;
+        <http://sv.org/property/production_companies>
+                "tt0114319" , "tt0115676" , " {'id': 10751" , "tt0112896" , " {'id': 80" , " {'id': 10749" , "tt0113819" , "tt0118002" , "tt0113149" ;
+        <http://sv.org/property/release_date>
+                "Dracula: Dead and Loving It" , "tt0114885" , "tt0113161" , "tt0112346" , "tt0110877" , "tt0113321" , "tt0115639" , "tt0114011" , "tt0113442" , "tt0112697" , "Sabrina" , "tt0113537" , "Mighty Aphrodite" , "Gazon maudit" , "Big Bully" , "Two If by Sea" , "tt0114825" ;
+        <http://sv.org/property/revenue>
+                "\"A writer returns to his hometown where he faces the childhood nemesis whose life he ultimately ruined" , "\"When Lenny and his wife" , "it" , "\"Frank O'Brien" , "\"When a lawyer shows up at the vampire's doorstep" , "en" , "\"After learning of her husband's infidelities" , "\"An ugly duckling having undergone a remarkable change" ;
+        <http://sv.org/property/runtime>
+                "Beautiful Girls" , "Kicking and Screaming" , " Amanda" , "Clueless" , "Vampire in Brooklyn" , "It Takes Two" , " still harbors feelings for her crush: a carefree playboy" , " a housewife invites an itinerant lesbian to move in with them. None of their lives will ever be the same again.\"" , "Home for the Holidays" , " only the bully wants to relive their painful past by torturing him once again.\"" , " he falls prey to his charms and joins him in his search for fresh blood. Enter Dr. van Helsing" , " a petty thief" , "The American President" , "Get Shorty" , "Il postino" , "Now and Then" , "Waiting to Exhale" .
+
+<http://sv.org/property/ 'name': 'Drama'}>
+        <http://sv.org/property/Language>
+                " {'id': 10751" , " {'id': 80" , " {'id': 27" , " {'id': 10752" , " {'id': 53" , " {'id': 35" , " {'id': 36" , " {'id': 10749" , " {'id': 10769" , " {'id': 14" ;
+        <http://sv.org/property/budget>
+                "16500000" , "900000" , "10000000" , "0" , "20000000" , "3600000" , "44000000" , "6000000" , "8000000" , "47000000" , "19000000" , "52000000" ;
+        <http://sv.org/property/genres>
+                "\"[{'id': 18" ;
+        <http://sv.org/property/imdb_rating>
+                "\"Held in an L.A. interrogation room" , " finds herself strangely attracted to a free-spirited" , " 'id': 871}" , "\"[{'name': 'Columbia Pictures'" , " 'id': 33}" , " arrives in post Communist Albania with Gino" , " the King finds out and relieves Merivel of his position and wealth. His fall from grace leaves Merivel where he first started. And through his travels and reunions with an old friend" , " Henri Fortin (Jean-Paul Belmondo)" , " implying that he'll kill her son Oliver if she fails. She manages to do this" , " who sits outside holding tight to his last quarter" , "\"[{'name': 'Columbia Pictures Corporation'" , " Danielle" , " who is persuaded to break her engagement to Frederick Wentworth" , " 'id': 2588}" , " 'id': 508}" , " receives flowers from a secret admirer. But when his fairy-tale fantasies clash with her workaholic ways" , " arrives in Las Vegas to drink himself to death. There" , " she does so armed with a no-nonsense attitude informed by her military training and a fearless determination to better the lives of her students -- no matter what the cost.\"" , " the man responsible" , "\"[{'name': 'Paramount Pictures'" , " 'id': 14}]\"" , " William Adamson" , "en" , " Hy" ;
+        <http://sv.org/property/original_title>
+                " 'name': 'Crime'}]\"" , " 'name': 'Horror'}" , " 'name': 'War'}]\"" , " 'name': 'Crime'}" , " 'name': 'Fantasy'}" , " 'name': 'Foreign'}]\"" , " 'name': 'History'}]\"" , " 'name': 'Family'}]\"" , " 'name': 'Comedy'}]\"" , " 'name': 'Romance'}]\"" , " 'name': 'Thriller'}]\"" ;
+        <http://sv.org/property/overview>
+                "nl" , "fr" , " 'name': 'Thriller'}" , "it" , "zh" , " 'name': 'Thriller'}]\"" , " 'name': 'Science Fiction'}" , "en" ;
+        <http://sv.org/property/production_companies>
+                "tt0114279" , " {'id': 53" , "tt0114660" , "tt0116260" , "tt0113828" , "tt0112379" , "tt0115907" , "tt0112792" , "tt0114117" , "tt0114388" , "tt0113627" , "tt0114753" , "tt0114916" , "tt0114272" , "tt0112641" , "tt0112744" , " {'id': 878" , "tt0112365" , "tt0110299" , "tt0113347" , "tt0112722" , "tt0115644" , "tt0116731" , "tt0115012" ;
+        <http://sv.org/property/release_date>
+                "Lamerica" , "Dangerous Minds" , "Les misérables" , "When Night Is Falling" , "Things to Do in Denver When You're Dead" , "Eye for an Eye" , " {'id': 10749" , "Bed of Roses" , "The Crossing Guard" , "tt0114814" , "Casino" , "The Juror" , "Antonia" , "Leaving Las Vegas" , "Restoration" , "Persuasion" , "Richard III" , "Two Bits" , "Sense and Sensibility" , "Angels and Insects" , "How To Make An American Quilt" , "摇啊摇，摇到外婆桥" , " {'id': 53" , "Copycat" , "City Hall" ;
+        <http://sv.org/property/revenue>
+                "\"A prudish woman" , "\"In France during World War II" , "The life of the gambling paradise – Las Vegas – and its dark mafia underbelly." , "\"It's fire and brimstone time as grieving mother Karen McCann takes justice into her own hands when a kangaroo court in Los Angeles fails to convict Robert Doob" , "\"After World War II" , "Shakespeare's Play transplanted into a 1930s setting." , "A mafia film in Tarantino style with a star-studded cast. Jimmy’s “The Saint�? gangster career has finally ended. Yet now he finds him self doing favors for a wise godfather known as “The Man with the Plan.�?" , "\"This film adaptation of Jane Austen's last novel follows Anne Elliot" , " 'name': 'Romance'}]\"" , "\"Former Marine Louanne Johnson lands a gig teaching in a pilot program for bright but underachieving teens at a notorious inner-city high school. After having a terrible first day" , "\"Soon-to-be-wed graduate student Finn Dodd develops cold feet when she suspects her fiancé is cheating on her. In order to clear her head" , "\"Ben Sanderson" , "\"With his gangster boss on trial for murder" , "en" , "\"It's a hot summer day in 1933 in South Philly" , "A provincial boy related to a Shanghai crime family is recruited by his uncle into cosmopolitan Shanghai in the 1930s to be a servant to a ganglord's mistress." , "\"Fiore" , "\"Rich Mr. Dashwood dies" , "\"After his daughter died in a hit and run" , " 'name': 'Thriller'}]\"" , "\"The seeds of love are planted when Lisa" , "\"The accidental shooting of a boy in New York leads to an investigation by the Deputy Mayor" , "\"An aspiring young physician" , "An agoraphobic psychologist and a female detective must work together to take down a serial killer who copies serial killers from the past." , "\"In Victorian England" ;
+        <http://sv.org/property/runtime>
+                "\"[{'name': 'British Screen'" , "\"[{'name': 'Regency Enterprises'" , "\"[{'name': 'Miramax Films'" , " the daughter of a financially troubled aristocratic family" , " wealthy patriarch Sir Harald Alabaster invites an impoverished biologist" , " Finn visits her grandmother" , "\"[{'name': 'Universal Pictures'" , " and unexpectedly far-reaching consequences.\"" , " the monster who raped and murdered her 17-year-old daughter.\"" , " where 12-year old Gennaro lives with his widowed mom and his ailing grandpa" , "tt0117002" , " a high-powered investment banker" , " Robert Merivel found himself in the service of King Charles II and saves the life of someone close to the King. Merivel joins the King's court and lives the high life provided to someone of his position. Merivel is ordered to marry his King's mistress in order to divert the queens suspicions. He is given one order by the king and that is not to fall in love. The situation worsens when Merivel finds himself in love with his new wife. Eventually" , " a mob thug known as \"\"the Teacher\"\" tells Annie Laird she must talk her fellow jurors into a not-guilty verdict" , "tt0114168" , "The Usual Suspects" , " she decides she must throw decorum to the wind. When Johnson returns to the classroom" , "\"[{'name': 'Ministère des Affaires Étrangères'" , " Antonia and her daughter" , " an alcoholic Hollywood screenwriter who lost everything because of his drinking" , " a poor and illiterate man" , " Freddy Gale has waited six years for John Booth" , " leaving his second wife and her daughters poor by the rules of inheritance. Two daughters are the titular opposites.\"" , " an Italian conman" , " working on tenure as a literacy professor at a large urban university" .
+
+<http://sv.org/property/ 'name': 'Thriller'}>
+        <http://sv.org/property/Language>
+                " {'id': 18" ;
+        <http://sv.org/property/budget>
+                "0" ;
+        <http://sv.org/property/genres>
+                "\"[{'id': 53" ;
+        <http://sv.org/property/imdb_rating>
+                "\"The year is 1952" ;
+        <http://sv.org/property/original_title>
+                " 'name': 'Drama'}" ;
+        <http://sv.org/property/overview>
+                " 'name': 'Mystery'}]\"" ;
+        <http://sv.org/property/production_companies>
+                " {'id': 9648" ;
+        <http://sv.org/property/release_date>
+                "tt0112714" ;
+        <http://sv.org/property/revenue>
+                "fr" ;
+        <http://sv.org/property/runtime>
+                "Le confessionnal" .
+
+<http://sv.org/property/ 'name': 'History'}>
+        <http://sv.org/property/Language>
+                " {'id': 18" ;
+        <http://sv.org/property/budget>
+                "44000000" , "0" ;
+        <http://sv.org/property/genres>
+                "\"[{'id': 36" ;
+        <http://sv.org/property/imdb_rating>
+                "\"[{'name': 'Hollywood Pictures'" , "\"The story of the relationship between painter Dora Carrington and author Lytton Strachey in a World War One England of cottages and countryside. Although platonic due to Strachey's homosexuality" ;
+        <http://sv.org/property/original_title>
+                " 'name': 'Drama'}]\"" , " 'name': 'Drama'}" ;
+        <http://sv.org/property/overview>
+                " 'name': 'Romance'}]\"" , "en" ;
+        <http://sv.org/property/production_companies>
+                "tt0113987" , " {'id': 10749" ;
+        <http://sv.org/property/release_date>
+                "tt0112637" , "Nixon" ;
+        <http://sv.org/property/revenue>
+                "en" , "\"An all-star cast powers this epic look at American President Richard M. Nixon" ;
+        <http://sv.org/property/runtime>
+                "Carrington" , " a man carrying the fate of the world on his shoulders while battling the self-destructive demands within. Spanning his troubled boyhood in California to the shocking Watergate scandal that would end his presidency.\"" .
+
+<http://sv.org/property/ 'name': 'Action'}>
+        <http://sv.org/property/Language>
+                " {'id': 14" , " {'id': 35" , " {'id': 12" , " {'id': 80" , " {'id': 18" , " {'id': 878" , " {'id': 53" ;
+        <http://sv.org/property/budget>
+                "98000000" , "60000000" , "50000000" , "35000000" , "10000000" , "18000000" , "38000000" , "0" ;
+        <http://sv.org/property/genres>
+                "\"[{'id': 28" ;
+        <http://sv.org/property/imdb_rating>
+                "\"[{'name': 'New Line Cinema'" , "\"Detective - turned - bodyguard Cynthia McKay (Cynthia Rothrock) is hired by a psychotic icy seductress" , " are on a quest to recover the three portions of a treasure map. Unfortunately" , " three warriors must overcome seemingly insurmountable odds" , "\"Max Kirkpatrick is a cop who protects Kate McQuean" , "en" , "\"A vengeful New York transit cop decides to steal a trainload of subway fares; his foster brother" , " 'id': 915}" , " 'name': 'Thriller'}]\"" , "\"International action superstar Jean Claude Van Damme teams with Powers Boothe in a Tension-packed" ;
+        <http://sv.org/property/original_title>
+                " 'name': 'Adventure'}]\"" , " 'name': 'Drama'}]\"" , " 'name': 'Crime'}" , " 'name': 'Fantasy'}]\"" , " 'name': 'Adventure'}" , " 'name': 'Comedy'}" , " 'name': 'Thriller'}" , " 'name': 'Science Fiction'}]\"" ;
+        <http://sv.org/property/overview>
+                " 'name': 'Thriller'}]\"" , " 'name': 'Comedy'}" , " 'name': 'Romance'}]\"" , " 'name': 'Drama'}" , " 'name': 'Crime'}" , "en" , " 'name': 'Drama'}]\"" , " 'name': 'Crime'}]\"" ;
+        <http://sv.org/property/production_companies>
+                "tt0118158" , "tt0112760" , " {'id': 80" , "tt0113855" , " {'id': 18" , " {'id': 35" , " {'id': 53" , "tt0116839" , " {'id': 10749" ;
+        <http://sv.org/property/release_date>
+                " {'id': 10751" , "tt0109950" , "tt0114576" , "tt0113010" , " {'id': 878" , " {'id': 53" , "White Squall" , "tt0113845" , "Mortal Kombat" , "Lawnmower Man 2: Beyond Cyberspace" , " {'id': 36" , "Cutthroat Island" ;
+        <http://sv.org/property/revenue>
+                "\"For nine generations an evil sorcerer has been victorious in hand-to-hand battle against his mortal enemies. If he wins a tenth Mortal Kombat tournament" , "\"Jobe is resuscitated by Jonathan Walker. He wants Jobe to create a special computer chip that would connect all the computers in the world into one network" , "\"Morgan Adams and her slave" , " 'name': 'History'}]\"" , "en" , " 'name': 'Thriller'}]\"" , " 'name': 'Science Fiction'}" , "Teenage boys discover discipline and camaraderie on an ill-fated sailing voyage." , " 'name': 'Family'}]\"" ;
+        <http://sv.org/property/runtime>
+                "tt0112499" , "Money Train" , " which Walker would control and use. But what Walker doesn't realize is a group of teenage hackers are on to him and out to stop his plan.\"" , "tt0115759" , "tt0113277" , "tt0112819" , "Sudden Death" , " William Shaw" , "tt0112302" , " desolation and evil will reign over the multiverse forever. To save Earth" , "Fair Game" , "Guardian Angel" , "\"[{'name': 'Hollywood Pictures'" , "tt0112401" , " {'id': 53" .
+
+<http://sv.org/property/ 'name': 'Horror'}>
+        <http://sv.org/property/Language>
+                " {'id': 878" , " {'id': 28" ;
+        <http://sv.org/property/budget>
+                "20000000" , "19000000" ;
+        <http://sv.org/property/genres>
+                "\"[{'id': 27" ;
+        <http://sv.org/property/imdb_rating>
+                " scientists have created the perfect weapon: a blade-wielding" , "en" ;
+        <http://sv.org/property/original_title>
+                " 'name': 'Science Fiction'}]\"" , " 'name': 'Action'}" ;
+        <http://sv.org/property/overview>
+                "en" , " 'name': 'Thriller'}" ;
+        <http://sv.org/property/production_companies>
+                "tt0114367" , " {'id': 53" ;
+        <http://sv.org/property/release_date>
+                " {'id': 80" , "Screamers" ;
+        <http://sv.org/property/revenue>
+                "\"(SIRIUS 6B" , " 'name': 'Crime'}]\"" ;
+        <http://sv.org/property/runtime>
+                "tt0116367" , " Year 2078) On a distant mining planet ravaged by a decade of war" .
+
+<http://sv.org/property/ 'name': 'Family'}>
+        <http://sv.org/property/Language>
+                " {'id': 16" , " {'id': 18" ;
+        <http://sv.org/property/budget>
+                "0" ;
+        <http://sv.org/property/genres>
+                "\"[{'id': 10751" ;
+        <http://sv.org/property/imdb_rating>
+                "\"An outcast half-wolf risks his life to prevent a deadly epidemic from ravaging Nome" , " 'id': 38953}" ;
+        <http://sv.org/property/original_title>
+                " 'name': 'Animation'}" , " 'name': 'Drama'}]\"" ;
+        <http://sv.org/property/overview>
+                "fa" , " 'name': 'Adventure'}]\"" ;
+        <http://sv.org/property/production_companies>
+                " {'id': 12" , "tt0112445" ;
+        <http://sv.org/property/release_date>
+                "بادکنک س�?ید" , "tt0112453" ;
+        <http://sv.org/property/revenue>
+                "Several people try to take advantage of a little girl's innocence to hustle money her mom gave to her to buy a goldfish with." , "en" ;
+        <http://sv.org/property/runtime>
+                "Balto" , "\"[{'name': 'I.R.I.B. Channel 2'" .
+
+<http://sv.org/property/ 'name': 'Documentary'}]">
+        <http://sv.org/property/Language>
+                "tt0113973" , "tt0113283" ;
+        <http://sv.org/property/budget>
+                "0" ;
+        <http://sv.org/property/genres>
+                "\"[{'id': 99" ;
+        <http://sv.org/property/imdb_rating>
+                " who introduced her to Alex. Alex and Nagy don't like each other" , " junkie and hag. Many faces for the same woman" ;
+        <http://sv.org/property/original_title>
+                "en" ;
+        <http://sv.org/property/overview>
+                "\"A documentary crew from the BBC arrives in L.A. intent on interviewing Heidi Fleiss" , "\"A look into the many lives of Christa Päffgen" ;
+        <http://sv.org/property/production_companies>
+                "Nico Icon" , "Heidi Fleiss: Hollywood Madam" ;
+        <http://sv.org/property/release_date>
+                " otherwise known as Nico; from cutie German mädchen to the first of the supermodels" , " a year after her arrest for running a brothel but before her trial. Several months elapse before the interview" ;
+        <http://sv.org/property/revenue>
+                " so the crew searches for anyone who'll talk about the young woman. Two people have a lot to say to the camera: a retired madam named Alex for whom Fleiss once worked and Fleiss's one-time boyfriend" , " to glamorous diva of the Velvet Underground" ;
+        <http://sv.org/property/runtime>
+                " to cult item" , " Ivan Nagy" .
